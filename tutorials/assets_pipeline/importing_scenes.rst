@@ -809,7 +809,7 @@ unnecessarily.
 
 To solve this, the ``-colonly`` modifier exists. It will remove the mesh upon
 importing and will create a :ref:`class_StaticBody3D` collision instead.
-This helps the visual mesh and actual collision to be separated.
+This helps keeping the visual mesh and actual collision to be separated.
 
 The option ``-convcolonly`` works in a similar way, but will create a
 :ref:`class_ConvexPolygonShape3D` instead using convex decomposition.
